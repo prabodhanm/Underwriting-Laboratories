@@ -6,6 +6,6 @@ app = Flask(__name__)
 def sayhello():
     return "Hello World!"
 
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
 
