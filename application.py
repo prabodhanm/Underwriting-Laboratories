@@ -11,5 +11,5 @@ def sayhellotoprabodhan():
     return "Hello Prabodhan!"
 
 if __name__ == "__main__":
-    app.run('localhost',5000)
+    app.run()
 
