@@ -6,6 +6,10 @@ app = Flask(__name__)
 def sayhello():
     return "Hello World!"
 
-# if __name__ == "__main__":
-#     app.run()
+@app.route("/prabodhan")
+def sayhellotoprabodhan():
+    return "Hello Prabodhan!"
+
+if __name__ == "__main__":
+    app.run()
 
